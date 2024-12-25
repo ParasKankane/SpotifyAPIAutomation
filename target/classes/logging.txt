@@ -1,0 +1,79 @@
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/er5hpl5oppjvo9mhpqs3vmn6y/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	user_id=er5hpl5oppjvo9mhpqs3vmn6y
+Headers:		Authorization=Bearer BQCdW0_4EGUwdbGk-UcCBVUhHjyVDqFRIOc1cTVzA0sosDmGfZDJHaMG0sNNGF5T_u-AxjG0H_tBYKs58RbtTHS8r0s4snOzQ5t3rmTXJHOqU9QfIVMvkdwqf7CWnWu6Qx5b2ZlANq-aevQrYqZSQdoVq0whtXGqIGQrN3XIfxvUsT9nvoigFmgyks6RW4rZoYRYBDi08jyHhPwfL5_ehzW0HOxVrTOw1uBPocF6JfDsUC3aos3jglAyvBUkTdjjtnZSYyScs7s6dj6CTBn7
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Paras Playlist",
+    "description": "This playlist is created for testing purpose",
+    "collaborative": false
+}
+HTTP/1.1 201 Created
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Tue, 24 Dec 2024 17:59:11 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "This playlist is created for testing purpose",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/65i6xyOeGAFjErKVlp8nhe"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/65i6xyOeGAFjErKVlp8nhe",
+    "id": "65i6xyOeGAFjErKVlp8nhe",
+    "images": [
+        
+    ],
+    "primary_color": null,
+    "name": "Paras Playlist",
+    "type": "playlist",
+    "uri": "spotify:playlist:65i6xyOeGAFjErKVlp8nhe",
+    "owner": {
+        "href": "https://api.spotify.com/v1/users/er5hpl5oppjvo9mhpqs3vmn6y",
+        "id": "er5hpl5oppjvo9mhpqs3vmn6y",
+        "type": "user",
+        "uri": "spotify:user:er5hpl5oppjvo9mhpqs3vmn6y",
+        "display_name": null,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/er5hpl5oppjvo9mhpqs3vmn6y"
+        }
+    },
+    "public": true,
+    "snapshot_id": "AAAAEv/682NnOZ4VW5Wbhaf6b8/Gc7++",
+    "tracks": {
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "href": "https://api.spotify.com/v1/playlists/65i6xyOeGAFjErKVlp8nhe/tracks",
+        "total": 0,
+        "items": [
+            
+        ]
+    }
+}
